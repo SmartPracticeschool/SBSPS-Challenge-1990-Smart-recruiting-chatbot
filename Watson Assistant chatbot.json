@@ -1,0 +1,1487 @@
+{
+  "intents": [
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You're misunderstanding me"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "It is not what I want"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "What do you mean by that?"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "I don't get it"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "salary",
+      "examples": [
+        {
+          "text": "salary package"
+        },
+        {
+          "text": "what about salary?"
+        },
+        {
+          "text": "how much salary you give?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "timing",
+      "examples": [
+        {
+          "text": "timings of interview"
+        },
+        {
+          "text": "what is the working hour of this company?"
+        },
+        {
+          "text": "when the main interview scheduled?"
+        },
+        {
+          "text": "when will the interview is conducted"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "For sure!"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good night"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "process_of_interview",
+      "examples": [
+        {
+          "text": "process of recruiting"
+        },
+        {
+          "text": "how the interview conducted?"
+        },
+        {
+          "text": "what is the process of the interview?"
+        }
+      ],
+      "description": "what is the process of the interview?"
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "im not sure about that"
+        },
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I don t know what you need"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Tell me about your life"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "postings",
+      "examples": [
+        {
+          "text": "what are the postings for this interview"
+        },
+        {
+          "text": "what job roles you offer?"
+        },
+        {
+          "text": "For what jobs the interview is conducted?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "greeting",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "good morning",
+          "synonyms": [
+            "gm",
+            "gd mng",
+            "gud morning",
+            "gd morning",
+            "gud mng",
+            "morning"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good evening",
+          "synonyms": [
+            "gd evening",
+            "gud evening",
+            "gd eve",
+            "gud eve",
+            "evening"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good afternoon",
+          "synonyms": [
+            "gd afn",
+            "gud afn",
+            "gd aftn",
+            "gud aftn",
+            "afternnon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good night",
+          "synonyms": [
+            "gd ngt",
+            "gud ngt",
+            "gd night",
+            "gud night",
+            "night",
+            "gn"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "interviewtime",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "interview date",
+          "synonyms": [
+            "when interview conducted"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "timing of interview",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "when interview start",
+          "synonyms": [
+            "interview starting"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "workinghour",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "when the company start",
+          "synonyms": [
+            "company starting"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "timing of company",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "daily hour",
+          "synonyms": [
+            "timing of company",
+            "what is the timing of the company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "office time",
+          "synonyms": [
+            "working hour"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1593336180049",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1593336180127",
+      "previous_sibling": "handler_1_1593336180126"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1593336180049",
+      "event_name": "input",
+      "dialog_node": "handler_1_1593336180126"
+    },
+    {
+      "type": "slot",
+      "parent": "Welcome",
+      "dialog_node": "slot_10_1593336180049",
+      "previous_sibling": "handler_1_1593336178772"
+    },
+    {
+      "type": "event_handler",
+      "parent": "Welcome",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1593336178772"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "By mistake you are not filled the details form ,No problem.<a href=https://node-red-xrtra.mybluemix.net/ui/#!/1?socketid=G793RAs6GXRa64fnAABC\" target=\"_blank\">click here</a>to fill the details form."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1594626377863",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1594626426688"
+      },
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_3_1594627154158",
+      "previous_sibling": "node_4_1594626426688"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The first phase of interview is over.If you are selected we will inform you. Now you can ask your doubts if any about the company."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1594626377863",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1594742076697"
+      },
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_4_1594626426688"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have to login for getting further access.For log in <a href=https://node-red-xrtra.mybluemix.net/ui/#!/2?socketid=G793RAs6GXRa64fnAABC target=\"_blank\">click here</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1594437963905",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1594626377863"
+      },
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_4_1594518411738",
+      "previous_sibling": "node_2_1594439214658"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have to sign up for creating account.For Sign up <a href=https://node-red-xrtra.mybluemix.net/ui/#!/0?socketid=G793RAs6GXRa64fnAABC target=\"_blank\">click here</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1594437963905",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1594626377863"
+      },
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_2_1594439214658"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi first you need to provide the required details then we will call you if you are selected. Now you cannot talk to a person . If you have any doubts ask me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_5_1594738150028",
+      "previous_sibling": "node_7_1594524400253"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello I am a chatbot for helping this recruiting process. I can answer your questions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_About_You || #General_Human_or_Bot",
+      "dialog_node": "node_9_1594738033933",
+      "previous_sibling": "node_5_1594738150028"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Once all the candidates completed their first stage interview your second stage of interview with HR will be scheduled and informed to you."
+              },
+              {
+                "text": "Don't worry"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#timing && @interviewtime",
+      "dialog_node": "node_6_1594520118651",
+      "previous_sibling": "node_3_1594519901020"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This interview has two stages. First you need to attend the chatbot interview and filling the required forms for pre-selection. Once you finish the process the main interview is scheduled with HR and the timings are informed you later."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#process_of_interview",
+      "dialog_node": "node_10_1594521489227",
+      "previous_sibling": "node_6_1594520118651"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "select any one of them",
+            "options": [
+              {
+                "label": "App developer",
+                "value": {
+                  "input": {
+                    "text": "#greeting"
+                  }
+                }
+              },
+              {
+                "label": "Webdeveloper",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_5_1593341933125",
+      "previous_sibling": "node_3_1594738651764"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I again repeat the process. First you have to sign in and then log in.you are given with a link for candidate's details form.You have to provide your details there. Now the first phase of interview is over. if you selected we will inform you. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bot_Control_Unsure",
+      "dialog_node": "node_3_1594738651764",
+      "previous_sibling": "node_3_1594739718984"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you already sign up?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_3_1594437963905",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your interest. we will inform you later. All the best. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_7_1594738295039",
+      "previous_sibling": "node_9_1594738033933"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. Once again welcome you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_3_1594739718984",
+      "previous_sibling": "node_9_1594742076697"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "you can ask me about",
+            "options": [
+              {
+                "label": "process of interview",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "timings of interview and company",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "salary",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "job roles",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "dialog_node": "node_9_1594742076697",
+      "previous_sibling": "node_2_1594626377863"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The company will function normally as 9.00 am to 5.00 pm. If in case any change we will inform you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#timing && @workinghour",
+      "dialog_node": "node_3_1594519901020",
+      "previous_sibling": "node_5_1593341933125"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you filled the details form?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_2_1594626377863",
+      "previous_sibling": "node_3_1594437963905"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "According to your skill salary may varies from 30000 to 50000"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#salary",
+      "dialog_node": "node_7_1594524400253",
+      "previous_sibling": "node_9_1594522704851"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The job openings are for <br> 1. Web developer <br> 2. App developer <br> 3.Full stock developer"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#postings",
+      "dialog_node": "node_9_1594522704851",
+      "previous_sibling": "node_10_1594521489227"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1594738295039",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to XYZ Company, I am recruit bot for helping you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1594437963905"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "recruit",
+  "language": "en",
+  "description": ""
+}
